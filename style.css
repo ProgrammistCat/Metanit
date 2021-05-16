@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+}
+
+.root {
+    font-family: 'Reggae One', cursive;
+    background: #e5e5e5;
+}
+
+.main-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    border: solid #d4d1d1 1px;
+}
+
+.header {
+    height: 10vh;
+    border: solid #d4d1d1 1px;
+    background: #f5f3f3;
+}
+
+.navbar {
+    height: 5vh;
+    border: solid #d4d1d1 1px;
+    background: #d9d9d9;
+    display:flex;
+}
+
+.navbar div, .navbar .first-title, .navbar .ending {
+    border: solid #bdbbbb 1px;
+    background: #e7e6e6;
+    width: 140px;
+    margin-top:0;
+    margin-bottom:0;
+    font-size: 13px;
+    text-align:center;
+    padding-top:13px;
+    font-family: 'Reggae One', cursive;
+}
+
+.first-title {
+    margin-left:30px;
+}
+
+.first-title:hover {
+    font-size: 14px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.navbar div:hover {
+    font-size: 14px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.ending:hover {
+    font-size: 14px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.ending {
+    margin-right:30px;
+}
+
+.main {
+    display: flex;
+}
+
+.left-bar, .right-bar {
+    width: 12%;
+    height: 80vh;
+    background: #f5f3f3;
+    border: solid #d4d1d1 1px;
+}
+
+.main-content {
+    width: 76%;
+    border: solid #d4d1d1 1px;
+    height: 80vh;
+    background: #ffffff;
+}
+
+.footer {
+    height: 11vh;
+    border: solid #d4d1d1 1px;
+    background: #f5f3f3;
+}
+
+.footer div {
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+    font-size: 13px;
+    padding-top:10px;
+}
+
+.my-link {
+    color:black;
+}
+
+.my-link-two {
+    color:black;
+}
+
+.my-link:hover {
+    color: #05058b;
+}
+
+.style {
+    padding-left:70px;
+    padding-top:5px;
+}
+
+.title h1, .title h5 {
+    margin:0;
+}
+
+.icons {
+    display:flex;
+    padding-left:680px;
+}
+
+.icons h3 {
+    padding-left:30px;
+}
+
+.style {
+    display:flex;
+}
+
+.section {
+    width: 96%;
+    height: 4vh;
+    background: #f5f3f3;
+    border: solid #d4d1d1 1px;
+    font-family: 'Reggae One', cursive;
+    font-size: 13px;
+    padding-left: 6px;
+}
+
+.all-section:hover {
+    cursor: pointer;
+}
+
+.section p:hover {
+    color: #07078e;
+}
+
+.icon-vk {
+    width: 30px;
+    opacity: 50%;
+    margin-right:20px;
+    margin-top: 20px;
+}
+
+.icon-vk:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.icon-twitter {
+    width: 30px;
+    opacity: 50%;
+    margin-right:20px;
+    margin-top: 20px;
+}
+
+.icon-telegram {
+    width: 30px;
+    opacity: 50%;
+    margin-right:20px;
+    margin-top: 20px;
+}
+
+.icon-twitter:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.icon-youtube {
+    width: 30px;
+    opacity: 50%;
+    margin-right:20px;
+    margin-top: 20px;
+}
+
+.icon-youtube:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.material-icons {
+    width: 30px;
+    opacity: 50%;
+    margin-right:20px;
+    margin-top: 20px;
+}
+
+.material-icons:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.icon-telegram:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.icons-two {
+    height: 6vh;
+    margin: 10px;
+    display:flex;
+}
+
+.icon-vk-two {
+    width: 40px;
+    padding-left: 20px;
+    margin-top: 10px;
+    opacity: 70%;
+}
+
+.icon-vk-two:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.odnocl-icon {
+    width: 40px;
+    margin-right: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    opacity: 70%;
+}
+
+.odnocl-icon:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.twitter-icon-two {
+    width: 40px;
+    margin-right: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    opacity: 70%;
+}
+
+.twitter-icon-two:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.icon-facebook {
+    width: 40px;
+    margin-right: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    opacity: 70%;
+}
+
+.icon-facebook:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.left-block {
+    height: 60vh;
+    width: 50%;
+    margin: 10px;
+    padding-left: 5px;
+}
+
+.left-block p {
+    font-size: 13px;
+}
+
+.right-block {
+    height: 60vh;
+    width: 50%;
+    margin: 10px;
+}
+
+.right-block p {
+    margin: 0;
+}
+
+.box-text {
+    display:flex;
+}
+
+.zagolovok {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.block-one {
+    padding-bottom:25px;
+}
+
+.block-one p {
+    font-size: 13px;
+    padding-bottom:7px;
+}
+
+.cat-one {
+    width: 155px;
+    border: #88cfdb solid 5px;
+    margin-left: 2px;
+}
+
+.text {
+    font-size: 12px;
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+}
+
+.text p {
+    margin:3px;
+}
+
+.cat-two {
+    width: 150px;
+    border: #f1c08d solid 2px;
+    margin-left: 5px;
+}
+
+.text-three {
+    font-size: 11px;
+    margin-left:2px;
+}
+
+
+
